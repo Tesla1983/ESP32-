@@ -116,8 +116,7 @@ void setup() {
   // AsyncElegantOTA.begin(&server);    // Start AsyncElegantOTA
   // server.begin();
   bt.begin("ESP32-car1");
-  // ble_device.init();
-  // mycharacteristic.getUUID();
+
   
 
   
