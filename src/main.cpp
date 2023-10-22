@@ -5,20 +5,13 @@
 // #include <AsyncTCP.h>
 // #include <ESPAsyncWebServer.h>
 // #include <AsyncElegantOTA.h>
-// #include <NimBLEDevice.h>
-// #include <NimBLECharacteristic.h>
-
-// #define SERVICE_UUID "0000180d-0000-1000-8000-00805f9b34fb"
-// #define CHARACTERISTIC_UUID "00002a29-0000-1000-8000-00805f9b34fb"
 
 
 
-// NimBLEDevice  ble_device;
+
 
 BluetoothSerial bt;
-// NimBLEService* pService = new NimBLEService(SERVICE_UUID);
-// NimBLECharacteristic* pCharacteristic = pService->createCharacteristic(CHARACTERISTIC_UUID,READ,WRITE);
-// NimBLEAttValue pAttValue = pCharacteristic->getValue();
+
 
 
 
